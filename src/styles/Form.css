@@ -1,0 +1,35 @@
+.Form {
+    border: 1px solid black;
+    background-color: lightblue;
+    width: 45%;
+}
+
+.Form > h1 {
+    text-align: center;
+}
+
+.form-element {
+    margin-bottom: 20px;
+}
+
+.form-element > form > fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+    margin: auto;
+    background-color: lightgreen;
+}
+
+@media screen and (max-width: 1150px) {
+    .Form {
+        width: 800px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .Form{
+        width: 100%;
+    }
+}

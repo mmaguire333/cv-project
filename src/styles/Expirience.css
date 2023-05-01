@@ -1,0 +1,28 @@
+.Expirience {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.position {
+    display: flex;
+}
+
+.title-and-dates {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-and-dates > h4 {
+    margin-bottom: 0;
+}
+
+.company-and-responsibilities {
+    width: 70%;
+}
+
+.company-and-responsibilities > h4 {
+    padding-left: 20px;
+}

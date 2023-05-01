@@ -1,0 +1,14 @@
+.Preview {
+    border: 1px solid black;
+    min-width: 800px;
+    max-width: 45%;
+    position: sticky;
+    top: 0px;
+}
+
+@media screen and (max-width: 1150px) {
+    .Preview {
+        margin: auto;
+        position: static;
+    }
+}

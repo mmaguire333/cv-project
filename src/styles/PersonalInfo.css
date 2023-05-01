@@ -1,0 +1,16 @@
+.PersonalInfo {
+    background-color: lightblue;
+}
+
+.name, .job {
+    margin: 0px 20px 0px 20px;
+}
+
+.name {
+    padding-top: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}

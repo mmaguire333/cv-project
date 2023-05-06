@@ -13,10 +13,10 @@ class Preview extends Component {
     render() {
         return (
             <div className="Preview">
-                <PersonalInfo></PersonalInfo>
-                <Summary></Summary>
-                <Education></Education>
-                <Expirience></Expirience>
+                <PersonalInfo data={this.props.personalInfo} populatePersonalForm={this.props.populatePersonalForm}></PersonalInfo>
+                <Summary data={this.props.summary} populateSummaryForm={this.props.populateSummaryForm}></Summary>
+                <Education data={this.props.educationInfo} handleEducationEdit={this.props.handleEducationEdit} handleEducationDelete={this.props.handleEducationDelete}></Education>
+                <Expirience data={this.props.expirienceInfo} handleExpirienceEdit={this.props.handleExpirienceEdit} handleExpirienceDelete={this.props.handleExpirienceDelete}></Expirience>
             </div>
         );
     }

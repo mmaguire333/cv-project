@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import '../../styles/EducationForm.css';
 
 class EducationForm extends Component {
-
     render() {
       return (
         <div className="form-element">

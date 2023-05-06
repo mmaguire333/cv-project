@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import '../../styles/Summary.css'
-
 class SummaryForm extends Component {
     constructor(props) {
         super(props)

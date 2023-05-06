@@ -3,7 +3,6 @@ import uniqid from "uniqid"
 import '../../styles/Expirience.css';
 
 class Expirience extends Component {
-
     render() {
         return (
             <div className="Expirience">

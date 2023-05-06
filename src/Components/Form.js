@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
 import PersonalInfoForm from './Form-Components/PersonalInfoForm';
 import EducationForm from './Form-Components/EducationForm';
-import ExpirienceForm from './Form-Components/ExpirienceFrom';
-
+import ExpirienceForm from './Form-Components/ExpirienceForm';
 import '../styles/Form.css';
 import SummaryForm from './Form-Components/SummaryForm';
 
-
 class Form extends Component {
-
-
-
     render() {
         return (
             <div className="Form">
@@ -26,6 +21,5 @@ class Form extends Component {
         );
     }
 }
-
 
 export default Form;

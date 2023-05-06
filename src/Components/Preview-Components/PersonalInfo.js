@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import '../../styles/PersonalInfo.css'
 
 class PersonalInfo extends Component {
-
-
     handleEdit = () => {
         this.props.populatePersonalForm(this.props.data);
     }

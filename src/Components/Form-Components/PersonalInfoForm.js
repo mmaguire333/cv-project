@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import '../../styles/PersonalInfoForm.css'
 
 class PersonalInfoForm extends Component {
     constructor(props) {

@@ -4,11 +4,32 @@
     max-width: 45%;
     position: sticky;
     top: 0px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 @media screen and (max-width: 1150px) {
     .Preview {
         margin: auto;
         position: static;
+        overflow: hidden;
+    }
+}
+
+@media print {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .Preview {
+        border: none;
+        min-width: 100vw;
+    }
+
+
+    button {
+        display: none;
     }
 }

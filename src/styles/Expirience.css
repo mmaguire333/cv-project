@@ -1,10 +1,16 @@
 .Expirience {
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.Expirience > h3 {
+    font-size: 30px;
 }
 
 .position {
     display: flex;
+    position: relative;
 }
 
 .title-and-dates {
@@ -25,4 +31,18 @@
 
 .company-and-responsibilities > h4 {
     padding-left: 20px;
+}
+
+.expirience-buttons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    left: 75px;
+    top: -20px
+}
+
+.expirience-buttons > button {
+    width: 100px;
+    height: 25px;
 }

@@ -1,12 +1,44 @@
+body {
+    background-color: #333333;
+}
+
 .App {
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
 }
 
+.form-and-print-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+#print-button {
+    background-color: lightcoral;
+    border-radius: 5px;
+    width: 50%;
+    height: 60px;
+}
+
 @media screen and (max-width: 1150px) {
     .App {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .form-and-print-container {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .form-and-print-container {
+        width: 100vw;
     }
 }

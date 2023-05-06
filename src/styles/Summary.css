@@ -1,4 +1,21 @@
 .Summary {
+    position: relative;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.Summary > h3 {
+    font-size: 30px;
+}
+
+.Summary > p {
+    padding-left: 10px;
+}
+
+.Summary > button {
+    position: absolute;
+    left: 45%;
+    top: 5px;
+    width: 100px;
+    height: 30px;
 }
